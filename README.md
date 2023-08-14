@@ -1,3 +1,0 @@
-# HTML
-Commit
-HTML Practice
