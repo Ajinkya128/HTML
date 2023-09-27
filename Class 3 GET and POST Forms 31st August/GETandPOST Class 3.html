@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- We will be seeing the GET and POST method
+    Get is not Secure: Post is more Secure
+Get has data "?" in the URL: Post does not have data in URL
+Get has data limit: Post does not have any data limit-->
+
+<form method="get">
+<label>First Name</label>
+<input placeholder="First Name">
+<br>
+
+<!-- We will see below type= "radio"
+Radio button is used to select between Male Female and Other
+We have to group them together under the "Name" attribute so that only 
+one of them is selected at a time. We have to specify the "value" as either 
+Male female or Other to specify the Variable because in URL iut will just show as 
+On or OFF -->
+
+<label for="Male">Male:</label>
+<input  type="radio" id="Male" name="gender" value="Male">
+
+<label for="Female">Female:</label>
+<input  type="radio" id="Female" name="gender" value="Female">
+
+<label for="Other">Other:</label>
+<input  type="radio" id="Other" name="gender" value="Other">
+<br>
+
+<input  type="Submit" value="Submit the Form">
+
+<br> <br>
+
+<!-- lets have a look at checkbox 
+Here we will use the type as "checkbox"-->
+
+<label for="Male">Male:</label>
+<input  type="checkbox" id="Male" name="gender" value="Male">
+
+<label for="Female">Female:</label>
+<input  type="checkbox" id="Female" name="gender" value="Female">
+
+<label for="Other">Other:</label>
+<input  type="checkbox" id="Other" name="gender" value="Other">
+<br>
+
+<input  type="Submit" value="Submit the Form">
+
+<br><br>
+
+
+
+    
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
