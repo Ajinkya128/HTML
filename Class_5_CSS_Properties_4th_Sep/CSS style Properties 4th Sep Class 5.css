@@ -1,0 +1,65 @@
+ h1{
+    color:blue;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(189, 95, 95);
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300
+    
+}
+
+h2{
+    color:rgb(6, 6, 19);
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(126, 74, 74);
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:200
+    
+}
+
+h3{
+    color:rgb(72, 72, 227);
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(86, 58, 58);
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500
+    
+}
+
+h4{
+    color:blue;
+    font-size: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(189, 95, 95);
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    font: weight 200px;
+    
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    /* overline,underline,line-through,none */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+
+.greenuppercase{
+    font-size: 30px;
+    text-decoration: overline;
+}
