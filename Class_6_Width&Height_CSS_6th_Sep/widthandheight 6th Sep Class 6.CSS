@@ -1,0 +1,122 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;1,700&family=Roboto:wght@300&display=swap');
+
+
+
+/* Here Width= browser width , Height= content height */
+/* When you mention just the background color, the color 
+will be applied to the whole width and the height is the 
+height of the content "Hello" */
+
+ .box{
+    background-color: aquamarine;
+    }
+
+/* Here now you see when we mention width and height */
+/* The background color area is covered accordingly */
+
+.box{
+    background-color: aquamarine;
+    width: 300px;
+    height: 200px;
+    }
+
+/* Now we will see parent div and child div, that is division inside 
+of division */
+
+/* Is based on the body of HTML. Therefore is always recommended
+to use PX and not % in the parent */
+/* Here you can see a Square with red background color */
+/* with width and height as 400px */
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+} 
+
+/* Is based on the Parent div. Therefore you can use % in height
+and width */
+/* Here we have chosen the background color as yellow which is
+50% of the parent div */
+.child{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+}
+
+/* Viewport is the viewable area of the screen. 
+Width by default is 100% VH(ViewportHeight) and VW(ViewportWidth)*/
+
+/* The Viewport width by default is always 100% */
+/* When you mention the viewport height as 50vh it will cover
+the browser area with 50% height */
+
+.banner{
+    height:50vh;
+    background-color: blue;
+} 
+
+
+/* line-height is used for getting the text in the centre of the tag
+text-align is used to get the text in the centre of one line */
+.helloworld1{
+    background-color: greenyellow;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+} 
+
+
+
+/* We have again used .helloworld class and adjusted the width to maaximum
+(which is by default) */
+/* We have set the text align to the centre */
+.helloworld{
+    background-color:red;
+    width: ;
+    text-align: center;
+    
+}
+/* NOTE: we have used display and converted this Inline element to
+Inline-block element. This way we can give properties like Width & Height
+to this Inline element */
+/* Then we have aligned the text in the center and line-height=height */
+/* We have also chnaged the font and used text decoration to remove the underline */
+
+a{
+    background-color: aqua;
+    display:inline-block;
+    width:70px;
+    height:70px;
+    text-align: center;
+    line-height: 70px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.center{
+    /* background-color: rgb(192, 137, 137);  */
+    text-align: center;
+}
+
+/* p{
+    background-color: yellowgreen;
+    width: 300px;   
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
