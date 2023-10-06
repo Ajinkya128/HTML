@@ -1,0 +1,75 @@
+
+
+
+h1{
+    height:;
+    width: 400px;
+    background-color: yellow;
+
+    /* padding: 20px; 
+
+    padding: 50px 100px; */
+
+    /* Padding works from Top to clockwise. Is used to have some distance
+    from the Content and the background box */
+    /* You can see the padding graph in the console by inspect */
+
+    padding: 10px 20px 30px 40px;
+
+    /* padding-top: 40px; */
+    /* padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px; */
+
+    /* border: 1px solid black; */
+
+    /* border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black; */
+
+    /* dotted dashed solid */
+    border: 2px dotted #000000;
+}
+
+
+h2{
+    height: 4%;
+    width: 400px;
+    background-color: blue;
+
+    /* Will change the distance between two containers */
+     margin: 25px; 
+
+    /* margin: 50px 75px; */
+
+    margin: 10px 20px 30px 40px;
+
+    margin-top: 40px;
+}
+
+
+h3{
+    height: 40px;
+    width: 400px;
+    background-color: yellow;
+    border: 2px dotted #000000;
+
+    /* We will see border radius */
+    border-radius: 80px;
+}
+
+h4{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(253, 253, 159);
+    border: 2px dotted #000000;
+
+    /* The below is only used to make a circle */
+    /* border-radius: 50%; */
+
+    /* We will see border radius */
+    /* border-radius: 80px; */
+
+    border-top-right-radius:80px ;
+    border-bottom-left-radius: 100px;
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Poppins:ital,wght@0,100;0,200;0,500;0,600;1,700&family=Roboto:wght@300&display=swap');
+
+div{
+    width:300px;
+    height:450px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    
+    
+}
+
+
+h2{
+    margin-left: 20px;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 900;
+    
+    
+}
+
+button{
+    margin-left: 20px;
+    padding-left: 90px;
+  padding-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+    background-color: rgb(224, 98, 104);
+    border: none;
+    border-radius: 4px;
+}
+
+h3{
+    margin-left: 20px;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+ul{
+    margin-left: 20px;
+    
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 40px;
+    color: grey;
+}
+
+p{
+    margin-left: 60px;
+}
+
+a{
+    margin-left: 110px;
+    text-decoration: none;
+    color: rgb(89, 215, 173);
+}
