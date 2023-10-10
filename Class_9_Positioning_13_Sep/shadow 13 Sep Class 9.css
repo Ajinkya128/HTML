@@ -1,0 +1,14 @@
+div{
+     width:100px;
+     height:100px;
+     background-color: grey;
+     box-shadow: 10px 10px 10px #a58989 ;
+     /*  inset can be used to set the shadow inside the box
+     But it is optional */
+
+}
+
+h1{
+    text-shadow: 15px 20px 5px #000000;
+    /* inset cannot be used in text Shadow */
+}

@@ -1,0 +1,107 @@
+*{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* ==========================RELATIVE========================== */
+.c1{
+  top:100%;
+  /* In percentage will go 100% from top outside of parent */
+  right:0px;
+  position:relative;
+
+}
+/* ==========================RELATIVE========================== */
+
+
+/* ==========================ABSOLUTE========================== */
+.c2{
+ 
+position: absolute;
+left:0;
+bottom:0;
+
+}
+
+
+.p2{
+   position:relative;
+
+}
+
+.grandparent{
+  /* position:relative; */
+}
+/* ==========================ABSOLUTE========================== */
+
+
+/* ==========================FIXED========================== */
+
+/* The inside element will remian fixed and is always with respect to the browser. 
+eg. Chat Boxes in same position
+With respect to the browser */
+.c3{
+
+  bottom: 0px;
+  right: 0px;
+  position:fixed;
+
+}
+/* ==========================FIXED========================== */
+
+
+
+.c4{
+  top:10px;
+  position:sticky;
+
+}
+
+
+
+
+
+
+
+
+
+
+h2 {
+    font-weight: 900;
+	margin-top: 3rem;
+	font-size: 40px;
+}
+
+.parent{
+  width: 100%;
+  height: 300px;
+  background: #978fff;
+  width: 60%;
+  margin-left: 300px;
+  border: 2px solid #333;
+
+}
+
+
+.child{
+  width: 100px;
+  height: 100px;
+  background-color: #503939;
+}
+
+.grandparent{
+    height: 400px;
+    border: 3px dashed red;
+}
+
+.p1{
+  margin-bottom: 50px;
+}
+
+.p2{
+      margin-top: 53px;
+}
+
+.p3{
+  margin-top: 50px;
+}
