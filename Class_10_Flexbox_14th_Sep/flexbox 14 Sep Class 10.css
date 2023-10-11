@@ -1,0 +1,142 @@
+
+.parent{
+    display: flex;
+    /* flex-wrap:wrap; */
+    flex-direction: column;
+    /* justify-content:space-between;  */
+    /* Center, flex-start, flex-end,,space-between, space-evenly  */
+    /* height: 500px;  */
+    /* justify-content: space-around; */
+    /* height: 400px;  */
+    /* align-items:flex-end; */
+    /* strech, center, flex-start */
+    
+}
+
+/* Default order is always zero */
+.child{
+    width: 100px;
+    height: 100px; 
+    flex-grow:1;
+}
+
+.ch-1{
+    /* width: 100px;  */
+    /* flex-grow: 1;   */
+    /* order: 2;  */
+}
+
+
+.ch-2{
+    /* order: 1;  */
+    /* flex-grow: 1;  */
+}
+
+
+
+.ch-3{
+    /* width: 30px; */
+    /* flex-grow: 1;  */
+    /* order: 3; */
+}
+
+
+.ch-4{
+    /* flex-grow: 1;  */
+    /* order:5; */
+}
+
+.ch-5{
+    /* flex-grow: 1;  */
+    /* order:4; */
+
+}
+
+
+
+
+
+
+
+h1, h2, div{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+
+
+.parent{
+    border:2px solid goldenrod;
+    /* height: auto; */
+
+  }
+
+
+
+
+
+.child{
+
+}
+
+
+
+.ch-1{
+
+    background: #d85b5b;
+
+
+}
+
+.ch-2{
+
+    background-color: #ccf950;
+
+}
+
+.ch-3{
+
+background-color: #49cc80;
+
+}
+
+.ch-4{
+
+background-color: #8e5bd8;
+
+}
+
+.ch-5{
+background-color: #423942;
+
+}
+
+
+.parent2{
+}
+
+
+.children{
+  border: 2px solid #555;
+}
+
+
+.child1{
+
+}
+
+.child2{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* dff */
