@@ -1,0 +1,160 @@
+/* Universal Selector */
+*{
+  text-align: center;
+
+}
+
+/* Multiple Element Selector */
+
+.p1, .p2, .p3  {
+  background-color: yellow;
+  padding: 30px;
+  border: 1px solid black;
+} 
+
+/* Multiple Class Selector */
+
+.padding{
+  padding:30px;
+
+}
+.border{
+  border: 1px solid black;
+}
+
+.padding.border{
+  background-color: royalblue;
+}
+
+
+.border.padding.uppercase{
+  text-transform: uppercase;
+}
+
+/* Child Element Selector */
+
+.parent1 p, .parent1 h1{
+  background-color: rgb(213, 170, 170);
+  padding: 30px;
+  border: 1px solid royalblue;
+}
+
+
+
+/* Adjacent Sibling Selector */
+
+.blue + p{
+  background-color: rgb(93, 240, 106);
+  padding: 30px;
+}
+
+/* Adjacent ALL Selector */
+
+.blue2 ~ p{
+  background-color: rgb(252, 9, 235);
+  padding: 30px;
+}
+
+
+/* DIRECT CHILD SELECTOR */
+.grandparent > P{
+  background-color: rgb(86, 78, 78);
+  padding: 30px;
+  border: 12px solid royalblue;
+
+}
+
+
+/* PSEUDO CLASSES */
+
+.parent5 p:first-child
+{
+  background-color: rgb(228, 255, 53);
+  padding: 30px;
+  border: 1px solid black
+}
+
+.parent5 p:nth-child(2)
+{
+  background-color: rgb(230, 74, 74);
+  padding: 30px;
+  border: 1px solid black
+}
+
+.parent5 h2:last-child
+{
+  background-color: rgb(120, 202, 128);
+  padding: 30px;
+  border: 1px solid black
+}
+
+
+/* FIRST OF TYPE AND LAST OF TYPE */
+
+.parent6 p:first-of-type
+{
+  background-color: rgb(235, 86, 188);
+  padding: 30px;
+  border: 1px solid black
+}
+
+.parent6 p:nth-of-type(2)
+{
+  background-color: rgb(74, 149, 230);
+  padding: 30px;
+  border: 1px solid black
+}
+
+.parent6 p:last-of-type
+{
+  background-color: rgb(200, 235, 113);
+  padding: 30px;
+  border: 1px solid black
+}
+
+/* PSEUDO ATTRIBUTE FIREST LETTER */
+.parent7 p:first-letter{
+  font-size: 50px;
+  color:rgb(234, 61, 14);
+}
+
+/* PSEUDO ATTRIBUTE HOVER, FOCUS, ACTIVE */
+
+.emailinput{
+  border: 2px solid black;
+  padding: 20px;
+  background-color: blue;
+}
+
+.emailinput:hover{
+  background-color: aqua;
+}
+
+.emailinput:focus{
+  background-color: rgb(247, 7, 7);
+
+}
+
+.emailinput:active{
+  background-color: brown;
+}
+
+/* ATTRIBUTE SELECTOR */
+
+
+/* CHnages the color of the text to brown */
+
+[type="text"]
+{
+  background-color: rgb(52, 165, 42);
+  padding:20px;
+}
+
+
+/* CHnages the text of the links to Aqua Marine and puts a strike through */
+[href=""]
+{
+  background-color: aquamarine;
+  text-decoration: line-through;
+}
+

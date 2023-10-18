@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="./selectors 15 Sep Class 11.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,900&display=swap" rel="stylesheet">
+  <title>SELECTORS</title>
+</head>
+<body>
+<h1>Multiple element selector</h1>
+
+<div class="parent0">
+  <p class="p1">paragraph 1</p>
+  <p class="p2">paragraph 2</p>
+  <p class="p3">paragraph 3</p>
+  <h1 class="h1">Heading 1</h1>
+
+</div>
+
+<h1>Multiple class selector</h1>
+
+<div class="parent0">
+  <p  class="padding border">paragraph 1</p>
+
+  <p class="padding">paragraph 2</p>
+  <p class="padding border uppercase">paragraph 3</p>
+
+  <h1 class="padding">HEADING</h1>
+
+  <p   class="border"> paragraph 4</p>
+</div>
+
+<!-- Child Element Selector -->
+<h1>Child Element Selector</h1>
+<div class="parent1">
+  <p>paragraph 1</p>
+  <p>paragraph 2</p>
+  <p>paragraph 3</p>
+  <h1>Another heading</h1>
+</div>
+
+
+<!-- Adjacent Sibling Selector -->
+
+<h1> div + p</h1>
+
+<div class="parent2">
+  <p>paragraph 1</p>
+  <p class="blue">paragraph 2</p>
+  <p>paragraph 3</p>
+  <p>paragraph 4</p>
+</div>
+  <p>Outer para</p>
+
+<!-- Adjacent All Selector -->
+<h1> div ~ p</h1>
+<p>paragraph 4</p>
+<div class="parent3">
+  <p>paragraph 1</p>
+  <p class = blue2>paragraph 2</p>
+  <p>paragraph 3</p>
+  <p>paragraph 3</p>
+  <p>paragraph 3</p>
+</div>
+
+  <p>Outer 1</p>
+  <p>Outer 2</p>
+
+
+
+
+  <!-- DIRECT CHILD SELECTOR -->
+<h1> div > p</h1>
+<p>paragraph 0</p>
+
+
+<div class="grandparent">
+  <p>paragraph 1</p>
+  <p>paragraph 2</p>
+  <p>paragraph 3</p>
+  <div class="parent">
+    <p>Grand CHild</p>
+    <p>Grand CHild</p>
+  </div>
+
+  <div class="parent11">
+    <h4>Heading 4</h4>
+  </div>
+</div>
+
+
+
+
+
+
+
+  <p>paragraph 5</p>
+
+
+
+<!-- <h1> :first-child, :last-child</h1> -->
+<!-- <p>paragraph outer</p> -->
+
+<!-- PSEUDO CLASSES -->
+<h1>Pseudo Classes</h1>
+<div class="parent5">
+  <p>paragraph 1</p>
+  <p>paragraph 2</p>
+  <h2>Hello</h2>
+  <p>paragraph 3</p>
+  <p>paragraph 4</p>
+  <p>paragraph 5</p>
+  <h2>Hello</h2>
+</div>
+
+
+<p>paragraph 4</p>
+
+
+
+
+
+<h1>first letter</h1>
+
+<div class="parent-6">
+  <p>paragraph 1 Lorem ipsum <span>dolor</span> sit amet, consectetur adipisicing elit. Rem nihil architecto blanditiis sequi ipsum enim fuga cum ab veritatis asperiores velit, est eos voluptatum magnam nisi. Eligendi possimus, nam dignissimos iure ullam consequuntur earum, sequi recusandae dolorem hic praesentium amet non? Eos sapiente natus, optio amet quisquam officia repudiandae, fugiat beatae vel temporibus perspiciatis odio voluptates, ullam veniam. Placeat laudantium aut dolorem, accusantium cum minima veniam officia voluptas iure! Magnam ipsa quia amet laborum, veniam molestiae porro eius tenetur adipisci quaerat accusamus doloribus reiciendis explicabo, cum praesentium numquam rerum itaque omnis nihil aspernatur ea voluptas voluptatum! Eos molestias facilis aut aspernatur fuga vel quas soluta hic quia totam doloremque rerum, iste cumque nesciunt itaque at deserunt quidem! Beatae culpa nam, earum velit reprehenderit vero voluptates nemo quisquam. Impedit nemo fuga eaque voluptas distinctio perspiciatis quas rerum repudiandae voluptatibus! Facere quidem ab quas incidunt, quo aperiam recusandae ullam voluptates! Facere ad facilis deleniti ab molestiae quia numquam necessitatibus doloremque laboriosam voluptates nostrum repudiandae fugiat libero a commodi dignissimos maxime doloribus, accusantium architecto reiciendis reprehenderit dolorum. Quibusdam quidem numquam accusamus, distinctio molestiae, deserunt pariatur, iure doloribus exercitationem quo aliquam sint dolore <span>corporis</span> non vitae soluta illum animi, repellat minus vel vero dolor praesentium eaque! Dicta cupiditate, aspernatur suscipit illum quam tenetur mollitia neque provident veritatis aut cumque impedit libero, autem, dolor praesentium assumenda, corporis maxime! Facere dignissimos corrupti repellat incidunt veniam in soluta asperiores molestias provident tenetur, nostrum quaerat numquam, possimus. Veniam necessitatibus sunt asperiores laudantium, quam. Iure rem odio id omnis, consectetur perferendis eligendi deserunt nihil architecto, dolorum veritatis dolores repellendus quo quia enim eveniet, nisi quas voluptatibus maxime consequatur cum nam asperiores quasi? Reiciendis doloremque optio impedit beatae perferendis aspernatur, molestiae deleniti culpa ducimus. Dolores aut ipsum fugiat, architecto iste fugit pariatur nisi soluta laboriosam. Molestiae maiores id alias maxime.</p>
+  <p>paragraph 2</p>
+  <p>paragraph 3</p>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- FIRST OF TYPE AND LAST OF TYPE -->
+
+<h1> :first-of-type, :last-of-type</h1>
+
+<div class="parent6">
+<h1>Heading 1</h1>
+  <p>paragraph 1</p>
+  <p>paragraph 2</p>
+  <h1 class="hello">Hello I wont ruin the styling</h1>
+  <p>paragraph 3</p>
+  <p>paragraph 4</p>
+  <h1>Head</h1>
+</div>
+
+<h2>Pseudo attribute First letter</h2>
+
+<div class="parent7">
+  <p>Outer </p><p>Para</p>
+  </div>
+
+<a href="">GOOGLE</a>
+<a href="" target="_blank">FB</a>
+<a href="" target="_blank">YOUTUBE</a>
+
+<h1>ATTRIBUTE SELECTOR</h1>
+<input type="text" placeholder="FIRSTNAME">
+<input type="email" placeholder="EMAIL">
+
+
+<h1>Pseudo classes</h1>
+<input id="inp" class="1Name" type="text" placeholder="LASTNAME">
+<input type="email" class="emailinput" placeholder="EMAIL">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<a class="anchor" href="#">LINK</a>
+<a href="www.facebook.com" target="_blank" class="fb">FACEBOOK</a>
+ <br><br>
+
+
+<br>
+<br>
+
+<input type="text" placeholder="LAST NAME" class="ip">
+
+
+</body>
+</html>

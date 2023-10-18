@@ -1,0 +1,38 @@
+.parent{
+
+    display: flex;
+    background-color: azure;
+    border: 3px dotted black;
+    height: 400px;
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.child{
+    width: 100px;
+    height: 100px;
+}
+
+.ch-1{
+    
+    background-color: blue;
+}
+
+.ch-2{
+    
+    background-color: blueviolet;
+}
+
+.ch-3{
+    
+    background-color: bisque;
+}
+.ch-4{
+    
+    background-color: yellow;
+}
+
