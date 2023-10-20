@@ -1,0 +1,51 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+
+/* Basicallly will change the font size and the background color according to the pixel size of the Screen
+the max width or Min width is specified in the @media query */
+
+@media(max-width: 1200px)
+{
+    h1{
+        font-size: 70px;
+    }
+    .box{
+        background-color: aqua;
+    }
+    
+}
+
+@media(max-width: 992px)
+{
+    h1{
+        font-size:50px;
+    }
+    .box{
+        background-color: pink;
+    }
+}
+
+@media(max-width: 767px)
+{
+    h1{
+        font-size:50px;
+    }
+    .box{
+        background-color: greenyellow;
+    }
+}
+
+@media(max-width: 567px)
+{
+    h1{
+        font-size:50px;
+    }
+    .box{
+        background-color: gold;
+    }
+}
+
