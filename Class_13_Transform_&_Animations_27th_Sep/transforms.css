@@ -1,0 +1,97 @@
+
+  .translate{
+    /* Rotate on X and Y axis */
+    /* transform: translate(20px,40px); */
+
+  /* X is always by default */
+    transform: translateX(20px);
+
+    /* Can also rotate on Y axis */
+    /* transform: translateY(20px); */
+
+  }
+
+.rotate{
+
+  /* Rotate is always in degrees "deg" */
+  /* By default will alwyas rotate on the "Z" axis */
+
+  /* transform: rotate(33deg); */
+
+  /* To sepcify to which degree on to rotate, specify the axis */
+
+  /* transform: rotateX(0deg);
+  transform: rotateY(0deg); */
+
+}
+
+.skew{
+
+  /* Skew is used t o pull the opposite edges of the box or div */
+  /* Is always on the X axis by default and is mentioned in deg*/
+
+  /* transform: skew(20deg); */
+
+  /* Will skew in the opposite direction */
+  transform: skewY(20deg);
+
+}
+
+.scale{
+
+  /* Scale is the ratio by which you want to increase the size of Div */
+
+  /* Will increase the Scale by 1 in all directions */
+  transform: scale(1.5);
+
+  /* Will increase the scale only on the X axis */
+  /* transform: scaleX(1.2); */
+
+  /* WIll incraease the scale only on the Y axis */
+  /* transform: scaleY(1.4); */
+
+}
+
+/* Now we will see Transition and Hover by applying it on the rotate transformation*/
+/* We will apply the Pseudo class hover on rotate, then we can give as much propoerties to it like
+transform and background colour */
+
+/* Transition allows for a smooth rotate and we can specify the time for the tarnsition */
+/* Transition can directly be given in the pseudo class or its better to give it seperately */
+/* transition delay is the amount of time after you have brough the cursor, the action will take place */
+
+.rotate{
+  transition: all 1s;
+  transition-delay: 0.5s;
+}
+
+.rotate:hover{
+  background-color: blue;
+  /* transform: rotate(130deg); */
+
+  /*We can use multiple properties in transform by just giving a space. Rotate, "scale", "translate", "skew".  */
+  transform: rotate(130deg) scale(1.2);
+}
+
+
+/* TEACHING STYLES */
+
+
+
+
+
+
+*{
+  text-align: center;
+}
+
+
+.tr{
+  width: 200px;
+  height: 200px;
+  background: tomato;
+  border: 3px solid #000;
+  margin:20px auto;
+}
+
+
