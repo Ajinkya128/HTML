@@ -1,0 +1,64 @@
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    background-color: bisque;
+    /* background colour is used for reference */
+}
+
+.left{
+    left:30%;
+}
+
+.right{
+    right:30%
+}
+
+.line{
+    position: absolute;
+    width:100px;
+    height:10px;
+    background-color: black;
+    display: inline-block;
+    top: 42%;
+    /* we have used display:inline-block as "Span" is an inline element and doesnot allow
+    width and height properties */
+    /* Other inline elements are a, span, input and Label */
+
+    /* Since all the above properties are common in both right and left class.
+    We created a seperate class and named it there */
+
+}
+
+/* to create a pseudo element in CSS we usee "::" */
+/* Each pseudo element has two properties, Content and Position.
+Content is always blank and dentoed by "" */
+
+.pseudoparent::before{
+    left: 30px;
+
+}
+
+.pseudoparent::after{
+    right: 30px;
+}
+/* The ::selection pseudo element will highlight the text selected in red with a Yellow
+back-ground */
+::selection {
+    color: red;
+    background: yellow;
+  }
+
+/* We will put all the common properties by using the "Multiple Element Selector" */
+
+.pseudoparent::before , .pseudoparent::after{
+
+    content:"";
+    position: absolute;
+    width: 100px;
+    height:10px;
+    background-color: black;
+    top: 42%;
+}
