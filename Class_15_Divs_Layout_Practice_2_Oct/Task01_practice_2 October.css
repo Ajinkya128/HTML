@@ -1,0 +1,220 @@
+
+/* TASK01 Yellow Blue */
+.main1{
+    height: 100px;
+    width:250px;
+    border: 4px solid black;
+    margin: 50px 50px;
+    display: flex;
+}
+
+.yellow1{
+    background-color: yellow;
+    width: 50%;
+}
+
+.blue1{
+    background-color: blue;
+    width: 50%;
+}
+
+/* TASK02 */
+
+.main2{
+    height: 100px;
+    width:250px;
+    border: 4px solid black;
+    margin: 50px 50px;
+    display: flex;
+    
+}
+
+.yellow2{
+    background-color: yellow;
+    width: 50%;
+}
+
+.Two{
+    display: flex;
+    /* height: 50%; */
+    width: 50%;
+    flex-direction: column;
+}
+
+.blue2{
+    background-color: blue;
+    width:100%;
+    height: 300px;
+}
+
+.brown2{
+    background-color: brown;
+    width:100%;
+    height: 300px;
+}
+
+.violet2{
+    background-color: violet;
+    width:100%;
+    height:300px;
+}
+
+/* TASK 3 */
+
+.main3{
+    height: 300px;
+    width:700px;
+    border: 4px solid black;
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.red3{
+    background-color: red;
+    width:100%;
+    height:70%;
+}
+
+.Three{
+    display: flex;
+    
+}
+
+.blue3{
+    background-color: blue;
+    height: 100px;
+    width: 300px;
+
+}
+.black3{
+    background-color: black;
+    height: 100px;
+    width: 300px;
+    
+}
+.blue33{
+    background-color: blue;
+    height: 100px;
+    width: 300px;
+    
+}
+
+/* TASK04 */
+
+.main4{
+    height: 300px;
+    width:700px;
+    border: 4px solid black;
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.four{
+    display: flex;
+    
+}
+
+.blue4{
+    background-color: blue;
+    height: 100px;
+    width: 300px;
+
+}
+.black4{
+    background-color: black;
+    height: 100px;
+    width: 300px;
+    
+}
+.blue44{
+    background-color: blue;
+    height: 100px;
+    width: 300px;
+    
+}
+
+.red4{
+    background-color: red;
+    width:100%;
+    height:70%;
+
+}
+
+/* TASK05 */
+
+.main5{
+    height: 300px;
+    width:700px;
+    border: 4px solid black;
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: column; */
+
+}
+
+.main55{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.yellow5{
+    background-color: red;
+    width: 50%;
+    height: 100%;
+}
+
+.five{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height:100%;
+}
+
+.blue5{
+    background-color: blue;
+    width:100%;
+    height: 300px;
+}
+
+.brown5{
+    background-color: brown;
+    width:100%;
+    height: 300px;
+}
+
+.violet5{
+    background-color: violet;
+    width:100%;
+    height:300px;
+}
+
+
+/* LAST BOX TO DO  */
+.fivelast{
+    display: flex;
+
+}
+
+.blue55{
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+
+}
+.black55{
+    background-color: black;
+    height: 90px;
+    width: 100%;
+    
+} */
+/* .blue55{
+    background-color: blue;
+    height: 100px;
+    width: 300px;
+    
+} */
+
