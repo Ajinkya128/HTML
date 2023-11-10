@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Montserrat:wght@200&family=Mukta:wght@300&family=Nunito:wght@300&family=Poppins:ital,wght@0,100;0,200;0,500;0,600;1,700&family=Roboto:wght@300&display=swap');
+
+
+.main{
+
+    width:800px;
+    height:600px;
+    background-color: grey;
+    border: 2px solid black;
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.text{
+    width:800px;
+    height:400px;
+    /* background-color: blue; */
+    text-align: center;
+    margin-top: px;
+    line-height: 50px;
+    background-image: url(./traveling-based-on-fare-deals.jpg);
+}
+
+.text h1{
+    font-size: 70px;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Caveat', cursive;
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+font-weight: 3000;
+}
+
+.text p{
+    font-size: px;
+    color: white;
+    margin-top: 30px;
+    
+}
+
+.text h3{
+    font-size: 30px;
+    color: white;
+    margin-top: -30px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.text button{
+    margin-top: -10px;
+    background-color:transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    font-weight: 900;
+}
+
+.main2{
+
+    width: 800px;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.OurCommunity{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(60, 49, 49);
+    text-align: center;
+    color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+}
+.ChurchMission{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(213, 165, 165);
+    text-align: center;
+    color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+}
+.JoinaGroup{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(200, 86, 86);
+    text-align: center;
+    color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+}
+.ChurchBeliefs{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(228, 126, 30);
+    text-align: center;
+    color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.main2 button{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    background-color:transparent;
+    border:none;
+    font-size: 1em;
+
+}
+
+.OurCommunity p{
+
+    margin-top: -15px;
+    font-size: 18px;
+}
+
+.ChurchMission p{
+
+    margin-top: -15px;
+    font-size: 18px;
+}
+
+.JoinaGroup p{
+
+    margin-top: -15px;
+    font-size: 18px;
+}
+
+.ChurchBeliefs p{
+
+    margin-top: -15px;
+    font-size: 18px;
+}
