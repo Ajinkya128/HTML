@@ -1,0 +1,29 @@
+
+
+
+
+.box{
+
+    width:200px;
+    height: 200px;
+    background-color: aqua;
+    margin:20px;
+}
+
+.border{
+    border: 2px solid black;
+}
+.padding{
+    padding: 30px;
+}
+
+
+/* .box2{
+
+    width:400px;
+    height: 400px;
+    background-color: aqua;
+    margin:20px;
+} */
+
+
