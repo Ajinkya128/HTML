@@ -1,0 +1,26 @@
+
+
+.boxMain{
+
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+.colorred{
+
+    background-color: red;
+}
+
+.colorblue{
+    background-color: rgb(15, 15, 123);
+}
+
+.colorgreen{
+    background-color: greenyellow;
+}
+
+.coloryellow{
+    background-color: yellow;
+}
