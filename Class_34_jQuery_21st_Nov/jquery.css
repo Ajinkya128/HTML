@@ -1,0 +1,17 @@
+
+
+.divi{
+
+    width: 150px;
+    height: 150px;
+    background-color: rgb(223, 205, 205);
+}
+.border{
+
+    border: 2px solid blue;
+}
+
+.padding{
+
+    padding: 20px;
+}
